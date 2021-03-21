@@ -1,0 +1,23 @@
+header a {
+    text-transform: uppercase;
+}
+body {
+    background: lightblue;
+}
+* {
+    margin: 0px;
+}
+header + main {
+    display: flex;
+    justify-content: space-around;
+}
+header + main {
+    width: 500px;
+}
+header + main {
+    margin-left:  900px;
+    margin-right: 900px;
+}
+.button {
+    box-align: center;
+}
