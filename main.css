@@ -1,23 +1,35 @@
-header a {
+header {
+    width: 1024px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+    padding-bottom: 75px;
     text-transform: uppercase;
 }
 body {
     background: lightblue;
 }
-* {
-    margin: 0px;
-}
-header + main {
+
+main {
     display: flex;
     justify-content: space-around;
 }
-header + main {
-    width: 500px;
-}
-header + main {
+main {
     margin-left:  900px;
-    margin-right: 900px;
+    margin-right: 400px;
 }
 .button {
     box-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
